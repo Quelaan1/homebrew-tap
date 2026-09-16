@@ -7,7 +7,7 @@ cask "spaces-renamer" do
   desc "Rename macOS Spaces in Mission Control"
   homepage "https://github.com/Quelaan1/spaces-renamer"
 
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
   depends_on arch: :arm64
 
   app "SpacesRenamer.app"
