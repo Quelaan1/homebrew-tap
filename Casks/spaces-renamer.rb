@@ -1,6 +1,6 @@
 cask "spaces-renamer" do
-  version "2.0.0"
-  sha256 "4d1cadb98bf007389c147447f7bb42e615c95fa82e5772a26c82b3f34f57d58e"
+  version "2.1.0"
+  sha256 "448e784f7078f5d3ab100c03dcb4561de6a324cae08f78a3d425d9fefb20313c"
 
   url "https://github.com/Quelaan1/spaces-renamer/releases/download/v#{version}/SpacesRenamer-#{version}.dmg"
   name "Spaces Renamer"
