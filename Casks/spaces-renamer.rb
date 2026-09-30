@@ -1,22 +1,21 @@
 cask "spaces-renamer" do
-  version "2.1.1"
-  sha256 "becf907f4e2e0c9d0639510c631e1fe5c7543dab1f4827c3a87d7c8007a7a739"
+  version "2.2.0"
+  sha256 "e739bf673fd4c44943ab13ec15724be29a936a4d2d4231de1d23a57263f03972"
 
-  url "https://github.com/Quelaan1/spaces-renamer/releases/download/v#{version}/SpacesRenamer-#{version}.dmg"
+  url "https://github.com/Quelaan1/spaces-renamer/releases/download/v#{version}/SpacesRenamer-2.2.0.dmg"
   name "Spaces Renamer"
   desc "Rename macOS Spaces in Mission Control"
   homepage "https://github.com/Quelaan1/spaces-renamer"
 
-  depends_on macos: :tahoe
+  depends_on macos: ">= :tahoe"
   depends_on arch: :arm64
 
   app "SpacesRenamer.app"
 
   caveats <<~CAVEATS
-    Renaming needs System Integrity Protection disabled and the arm64e preview ABI:
-      sudo nvram boot-args=-arm64e_preview_abi
-    Then open the app and activate the plugin from the Diagnostics pane.
-    See https://github.com/Quelaan1/spaces-renamer#first-run
+    Renaming needs System Integrity Protection disabled and
+    sudo nvram boot-args=-arm64e_preview_abi
+    See https://github.com/Quelaan1/spaces-renamer#prerequisites
   CAVEATS
 
   zap trash: [
