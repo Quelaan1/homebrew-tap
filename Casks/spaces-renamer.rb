@@ -1,8 +1,8 @@
 cask "spaces-renamer" do
-  version "2.2.1"
-  sha256 "2cdda24be3c682963f28cadce2377e10d19587bfe549c461ca9bba0a8a92fb67"
+  version "2.2.2"
+  sha256 "a0f878e94647ac4beebafb84644595861e3f326ba2fee196c6632e5f86683875"
 
-  url "https://github.com/Quelaan1/spaces-renamer/releases/download/v#{version}/SpacesRenamer-2.2.1.dmg"
+  url "https://github.com/Quelaan1/spaces-renamer/releases/download/v#{version}/SpacesRenamer-2.2.2.dmg"
   name "Spaces Renamer"
   desc "Rename macOS Spaces in Mission Control"
   homepage "https://github.com/Quelaan1/spaces-renamer"
